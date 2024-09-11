@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKSKEY</title>
+    <link rel="stylesheet" href="./booksky.css">
+    <link rel="icon" href="./1000_F_419549309_3FmVp3URVaTbNYqS1lBVjqrf6cF7r19l.jpg">
+</head>
+
+<body>
+    <nav>
+        <h1>Bookskey</h1>
+    </nav>
+
+
+    <div class="container">
+        <div class="sub-container">
+            <h1 class="head">Rich Dad Poor Dad</h1>
+            <h5>Robert</h5>
+            <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, ipsa saepe vero autem rem 
+                optio doloremque voluptas cupiditate. Labore, esse aut! Asperiores eius quam incidunt a numquam mollitia consectetur delectus.
+            </p>
+            <button onclick="deletebook(event)" class="btn-delete" id="delete-button">Delete</button>
+        </div>
+        
+    </div>
+
+
+    <button  class="btn-pluse" id="plus-button">+</button>
+
+    <div class="overlayout" id="overlayout"></div>
+
+    <div class="popup" id="popup">
+        <h1>Add Book</h1>
+        <input type="text" id="book-title" placeholder="Book Title"><br>
+        <input type="text" id="book-author" placeholder="Book Author"><br>
+        <textarea id="book-description"></textarea>
+        <button  id="add-button" onclick="addbook(event)"> ADD </button>
+        <button  id="cancel-button">cancel</button>
+
+    </div>
+
+
+    <script src="./booksky.js"></script>
+
+
+</body>
+
+</html>

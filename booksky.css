@@ -1,0 +1,111 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    background-color: rgb(231, 79, 79);
+    padding: 10px;
+}
+
+.sub-container h1{
+    color: rgb(231, 79, 79);
+}
+
+.sub-container{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 20%;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sub-container button{
+    margin:5px ;
+    border-radius: 10px;
+    background-color: rgb(231, 79, 79);
+    padding: 5px 10px;
+}
+
+.btn-pluse{
+    position:fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgb(231, 79, 79);
+    border-radius: 100%;
+    padding: 20px;
+    font-size: 40px;
+    border: none;
+}
+
+
+.overlayout{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity:0.8;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+
+.popup{
+    background-color:rgb(231, 79, 79);
+    padding: 40px;
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 3;
+    display: none;
+}
+
+
+#book-title,#book-author{
+    border: none;
+    border-bottom: solid black 2px;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    background:transparent;
+}
+#book-title::placeholder,#book-author::placeholder{
+    color: black;
+}
+#book-title:focus,#book-author:focus{
+    outline: none;
+}
+
+#book-description{
+    border: solid black 2px;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    background:transparent;
+}
+
+#add-button{
+    padding: 10px;
+    background-color:black ;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+#cancel-button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+}
